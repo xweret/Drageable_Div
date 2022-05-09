@@ -70,6 +70,15 @@ body {
 
 }
 
-
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #bfbfbf;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    
+    
+}
 
 
