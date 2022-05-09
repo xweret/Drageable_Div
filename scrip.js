@@ -19,3 +19,5 @@ document.addEventListener("mouseup", ()=>{
   header.classList.remove("active");
   header.removeEventListener("mousemove", onDrag);
 });
+
+//fuk github pages se esta bugeando
