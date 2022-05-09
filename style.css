@@ -30,6 +30,11 @@ body {
 
 }
 
+.wrapper header.active {
+    cursor: move;
+    user-select: none;
+}
+
 .wrapper .content {
     margin: 30px 30px 40px;
     align-items: center;
