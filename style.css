@@ -18,7 +18,7 @@ body {
     top: 50%;
     left: 50%;
     border-radius: 10px;
-    transform translate (-50%, -50%) scale(1.4);
+    transform: translate(-50%, -50%) scale(1.4);
 }
 
 .wrapper header {
@@ -29,4 +29,42 @@ body {
     border-bottom: 1px solid #bfbfbf
 
 }
+
+.wrapper .content {
+    margin: 30px 30px 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content .icon {
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    border: 5px solid #6f36ff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content .icon i {
+    font-size: 60px;
+    color: #6f36ff;
+}
+.content .tittle {
+    font-size: 29px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.content p {
+    font-size: 16px; 
+    text-align: center;
+
+}
+
+
+
 

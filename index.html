@@ -11,15 +11,23 @@
 <body>
     <div class="wrapper">
         <header>
-            Draggable Div Element
+            Draggable Div 
         </header>
         <div class="content">
             <div class="icon">
                 <i class="bx bx-move"></i></div>
-                <div class="tittle">Draggable Div Element</div>
+                <div class="tittle">Draggable Div </div>
                 <p class="tex">This is a draggable div which is created using HTML CSS & JavasCript. You can move this div anywhere on the document or page.</p>
+                
         </div>
     </div>
+    <script>
+        const wrapper = document.querySelector(".wrapper"), 
+        header = wrapper.querySelector(".header");
 
+        header.addEventListener("mousedown", ()=>{
+            header.addEventListener("mousedown", onDrag);
+        });
+    </script>
 </body>
 </html>
